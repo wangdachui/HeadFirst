@@ -31,6 +31,9 @@
 #import "WaitressV2.h"
 #import "Menu.h"
 #import "MenuItemV2.h"
+#import "ProxyPursuit.h"
+#import "Girl.h"
+#import "Pursuit.h"
 
 @interface ViewController ()
 
@@ -47,7 +50,7 @@
     //装饰者模式
     //[self decoratorPatternTest];
     //工厂模式
-    //[self factoryMethodPatternTest];
+    [self factoryMethodPatternTest];
     //命令模式
     //[self commandPatternTest];
     //外观模式
@@ -57,7 +60,9 @@
     //迭代器模式
     //[self iteratorPatternTest];
     //组合模式
-    [self compositePatternTest];
+    //[self compositePatternTest];
+    //代理模式
+    [self proxyPatternTest];
 }
 
 //策略模式
@@ -192,6 +197,19 @@
     
     WaitressV2 *waitress = [[WaitressV2 alloc] initWith:breakfastMenu];
     [waitress printMenu];
+    
+}
+
+//代理模式
+- (void)proxyPatternTest {
+    //有一个加王大可的美女
+    Girl *mm = [Girl new];
+    mm.name = @"王大可";
+    //你想送礼又不敢，让别人帮你送
+    ProxyPursuit *proxy = [[ProxyPursuit alloc] initWith:mm];//创建代理
+    [proxy giveDolls];
+    [proxy giveChocolate];
+    [proxy giveFlowers];
     
 }
 

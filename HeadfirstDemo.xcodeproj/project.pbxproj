@@ -54,6 +54,9 @@
 		93252E6C1EA8BF3300B12810 /* Squeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 93252E6B1EA8BF3300B12810 /* Squeak.m */; };
 		93252E6F1EA8C02100B12810 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 93252E6E1EA8C02100B12810 /* MallardDuck.m */; };
 		93252E721EA8C05C00B12810 /* RedHeadDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 93252E711EA8C05C00B12810 /* RedHeadDuck.m */; };
+		934D58011ED2B5A70023E1C7 /* Pursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D58001ED2B5A70023E1C7 /* Pursuit.m */; };
+		934D58041ED2B5C30023E1C7 /* ProxyPursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D58031ED2B5C30023E1C7 /* ProxyPursuit.m */; };
+		934D58071ED2B8FB0023E1C7 /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D58061ED2B8FB0023E1C7 /* Girl.m */; };
 		9356D7691EC9AEC000FAB17B /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9356D7681EC9AEC000FAB17B /* Subject.m */; };
 		9356D76C1EC9AF0700FAB17B /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9356D76B1EC9AF0700FAB17B /* Observer.m */; };
 		9356D7721EC9B0DD00FAB17B /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9356D7711EC9B0DD00FAB17B /* WeatherData.m */; };
@@ -165,6 +168,13 @@
 		93252E6E1EA8C02100B12810 /* MallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
 		93252E701EA8C05C00B12810 /* RedHeadDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedHeadDuck.h; sourceTree = "<group>"; };
 		93252E711EA8C05C00B12810 /* RedHeadDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedHeadDuck.m; sourceTree = "<group>"; };
+		934D57FE1ED29D380023E1C7 /* GiveGift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiveGift.h; sourceTree = "<group>"; };
+		934D57FF1ED2B5A70023E1C7 /* Pursuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pursuit.h; sourceTree = "<group>"; };
+		934D58001ED2B5A70023E1C7 /* Pursuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pursuit.m; sourceTree = "<group>"; };
+		934D58021ED2B5C30023E1C7 /* ProxyPursuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyPursuit.h; sourceTree = "<group>"; };
+		934D58031ED2B5C30023E1C7 /* ProxyPursuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyPursuit.m; sourceTree = "<group>"; };
+		934D58051ED2B8FB0023E1C7 /* Girl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Girl.h; sourceTree = "<group>"; };
+		934D58061ED2B8FB0023E1C7 /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Girl.m; sourceTree = "<group>"; };
 		9356D7671EC9AEC000FAB17B /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
 		9356D7681EC9AEC000FAB17B /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
 		9356D76A1EC9AF0700FAB17B /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
@@ -365,6 +375,13 @@
 		9356D7891EC9CCE200FAB17B /* 代理模式 */ = {
 			isa = PBXGroup;
 			children = (
+				934D57FE1ED29D380023E1C7 /* GiveGift.h */,
+				934D57FF1ED2B5A70023E1C7 /* Pursuit.h */,
+				934D58001ED2B5A70023E1C7 /* Pursuit.m */,
+				934D58021ED2B5C30023E1C7 /* ProxyPursuit.h */,
+				934D58031ED2B5C30023E1C7 /* ProxyPursuit.m */,
+				934D58051ED2B8FB0023E1C7 /* Girl.h */,
+				934D58061ED2B8FB0023E1C7 /* Girl.m */,
 			);
 			path = "代理模式";
 			sourceTree = "<group>";
@@ -583,6 +600,7 @@
 			files = (
 				9319728B1ECAF275002F0E1A /* PancakeMenu.m in Sources */,
 				9356D7A41EC9D19C00FAB17B /* Pizza.m in Sources */,
+				934D58011ED2B5A70023E1C7 /* Pursuit.m in Sources */,
 				93252E6C1EA8BF3300B12810 /* Squeak.m in Sources */,
 				931972881ECAF068002F0E1A /* Waitress.m in Sources */,
 				9319727F1ECAE9C6002F0E1A /* PancakeHouseIterator.m in Sources */,
@@ -621,6 +639,7 @@
 				93252E601EA8BE0500B12810 /* FlyWithWings.m in Sources */,
 				9356D7851EC9C72D00FAB17B /* Mocha.m in Sources */,
 				931972821ECAEB94002F0E1A /* MenuItem.m in Sources */,
+				934D58041ED2B5C30023E1C7 /* ProxyPursuit.m in Sources */,
 				931972441ECA945B002F0E1A /* ChicagoVegglePizza.m in Sources */,
 				93252E721EA8C05C00B12810 /* RedHeadDuck.m in Sources */,
 				931972621ECADB28002F0E1A /* TurkeyAdapter.m in Sources */,
@@ -641,6 +660,7 @@
 				9319725F1ECADAA5002F0E1A /* Turkey.m in Sources */,
 				93252E581EA8BB1200B12810 /* FlyBehavior.m in Sources */,
 				9356D7A71EC9D21F00FAB17B /* CheesePizza.m in Sources */,
+				934D58071ED2B8FB0023E1C7 /* Girl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

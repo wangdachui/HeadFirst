@@ -25,8 +25,8 @@ static Singleton* sInstance = nil;
     @synchronized(self) {
         if (sInstance == nil) {
             sInstance = [super allocWithZone:zone];
-            return sInstance;
         }
+        return sInstance;
     }
     return nil;
 }
